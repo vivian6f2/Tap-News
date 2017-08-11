@@ -1,0 +1,16 @@
+.preference_panel {
+	margin: auto !important;
+	width: 60% !important;
+}
+.error-message {
+	padding-left: 20px !important;
+	color: red;
+}
+.clearMargin{
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+.slider{
+	height: 20px !important;
+	margin:0px !important;
+}

@@ -1,0 +1,129 @@
+.news-intro-col {
+  display: inline-flex;
+  color: black;
+  height: 100%;
+}
+
+.news-intro-panel {
+  margin: auto 5px;
+  text-align: left;
+}
+
+.news-description {
+  text-align: left;
+  font-size: 22px;
+  color: #212121 !important;
+}
+
+.news-description p {
+  font-size: 22px !important;
+}
+
+.news-chip {
+  font-size: 16px !important;
+}
+
+.card-title{
+  font-size: 30px !important;
+}
+
+.news-container{
+  //background-color: #e8eaf6;
+}
+
+.news-label{
+  margin-top: 10px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill img {
+    //padding-left: 20px;
+    //padding-right: 20px;
+    flex-shrink: 0;
+    min-width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.forClick{
+  z-index: 1000;
+}
+.starNonClick{
+  color: #bdbdbd !important;
+  //right: 88px !important;
+}
+.labelNonClick{
+  color: #bdbdbd !important;
+}
+.starClicked{
+  color: #fdd835 !important;
+  //right: 88px !important;
+}
+.labelClicked{
+  color: #29b6f6 !important;
+}
+.starNonClick:hover, .starClicked:hover{
+  color:#fff176 !important;
+}
+.labelNonClick:hover, .labelClicked:hover{
+  color:#b3e5fc !important;
+}
+
+.btn-background{
+  background-color: #212121 !important;
+}
+
+.btn-star{
+  right: 88px !important;
+}
+
+.btn-label{
+
+}
+
+
+.card-image img{
+  width:100%;
+  height:100%;
+  max-height:400px;
+  object-fit: cover;
+  overflow: hidden;
+  //min-width:100%;
+}
+.card-image{
+  //background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%);
+  //max-height:500px;
+}
+.overlay{
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%);
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 0;
+}
+.ontop{
+  color:white;
+  z-index: -1;
+}
+
+.source-chip{
+  color:#bdbdbd !important;
+}
+.reason-chip{
+  color:#00bfa5 !important;
+}
+.time-chip{
+  color:#bdbdbd !important;
+}
+.class-chip{
+  color:#bdbdbd !important;
+}

@@ -1,0 +1,7 @@
+.tabs{
+	overflow-x: hidden !important;
+}
+
+.tabs:hover{
+	overflow-x: scroll !important;
+}

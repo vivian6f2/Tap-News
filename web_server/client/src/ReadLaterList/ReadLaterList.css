@@ -1,0 +1,51 @@
+.labelDisabled{
+	color: #bdbdbd !important;
+	pointer-events: none;
+}
+.labelAbled{
+	color: #29b6f6 !important;
+	pointer-events: auto;
+}
+.readLaterList{
+	background-color: #212121;
+	width:20%;
+	max-height:60%;
+	bottom: 85px !important;
+	overflow: hidden;
+	color: white;
+	pointer-events: auto;
+	padding-top:0px !important;
+	font-size: 14px;
+	border: 2px white solid;
+	border-radius: 3px;
+}
+.readLaterList:hover{
+	overflow: auto;
+}
+.pointerEvent:hover{
+	cursor: pointer;
+}
+.myTable tbody tr td{
+	white-space: nowrap;
+}
+
+.myTable tbody tr td:hover{
+	color: #26a69a;
+}
+.bottom-right-btn{
+	position: fixed;
+	right: 23px;
+	bottom: 23px;
+	padding-top: 15px;
+	margin-bottom: 0;
+	z-index: 998;
+}
+.bottom-right-table {
+	position: fixed;
+	right: 23px;
+	bottom: 85px;
+	padding-top: 0px;
+	margin-bottom: 0;
+	z-index: 998;
+
+}

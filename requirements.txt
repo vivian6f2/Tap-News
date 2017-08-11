@@ -1,0 +1,16 @@
+lxml
+newspaper
+nltk
+numpy
+python-dateutil
+python-jsonrpc
+pymongo
+pika
+pandas
+tensorflow
+requests
+redis
+scipy
+sklearn
+watchdog
+mongo-connector

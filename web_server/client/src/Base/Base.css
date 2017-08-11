@@ -1,0 +1,22 @@
+.nav-wrapper {
+  background-color: transparent;
+}
+.indicator{
+  visibility: hidden;
+}
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover{
+  color:rgba(255,255,255,0.3) !important;
+}
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active{
+  color:rgba(255,255,255,1.0) !important;
+  border-bottom: 3px solid #26a69a;
+}
+.dropdown-content{
+	background-color: #252525 !important;
+}
+.dropdown-content li:hover{
+	background-color: #FFFFFF !important;
+}
+.brand-logo{
+	margin-left: 20px;
+}
